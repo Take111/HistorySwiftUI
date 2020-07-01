@@ -8,13 +8,28 @@
 import SwiftUI
 
 struct ContentView: View {
+    var history = [History]()
+
     var body: some View {
-        Text("Hello, world!").padding()
+        NavigationView {
+            List(history) { history in
+                HStack {
+                    VStack(alignment: .leading) {
+                        Text(history.name)
+                        Text(String(history.age))
+                    }
+                    Spacer()
+                    Text(history.description)
+                    Spacer()
+                }
+            }
+            .navigationTitle("歴史")
+        }
     }
 }
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        ContentView(history: testData)
     }
 }

@@ -13,6 +13,7 @@
 		CF9F51D424AC0C9A0049DF3F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF9F51D324AC0C9A0049DF3F /* Preview Assets.xcassets */; };
 		CF9F51DF24AC0C9A0049DF3F /* SwiftUISampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF9F51DE24AC0C9A0049DF3F /* SwiftUISampleTests.swift */; };
 		CF9F51EA24AC0C9A0049DF3F /* SwiftUISampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF9F51E924AC0C9A0049DF3F /* SwiftUISampleUITests.swift */; };
+		CF9F51F824AC11B60049DF3F /* History.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF9F51F724AC11B60049DF3F /* History.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +46,7 @@
 		CF9F51E524AC0C9A0049DF3F /* SwiftUISampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftUISampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CF9F51E924AC0C9A0049DF3F /* SwiftUISampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUISampleUITests.swift; sourceTree = "<group>"; };
 		CF9F51EB24AC0C9A0049DF3F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CF9F51F724AC11B60049DF3F /* History.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = History.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +102,7 @@
 				CF9F51D024AC0C9A0049DF3F /* Assets.xcassets */,
 				CF9F51D524AC0C9A0049DF3F /* Info.plist */,
 				CF9F51D224AC0C9A0049DF3F /* Preview Content */,
+				CF9F51F724AC11B60049DF3F /* History.swift */,
 			);
 			path = SwiftUISample;
 			sourceTree = "<group>";
@@ -259,6 +262,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CF9F51F824AC11B60049DF3F /* History.swift in Sources */,
 				CF9F51CF24AC0C9A0049DF3F /* ContentView.swift in Sources */,
 				CF9F51CD24AC0C9A0049DF3F /* SwiftUISampleApp.swift in Sources */,
 			);
